@@ -1,0 +1,85 @@
+.accountant {
+    margin: auto;
+    width: 736px;
+    margin-top: 6.25rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.accountant p:first-child {
+    color: var(--blue-300);
+}
+
+.accountant p:last-child{
+    color: var(--purple-300);
+}
+
+.Count {
+    width: auto;
+    background-color: var(--gray-400);
+    padding: 0.5rem;
+    border-radius: 15px;
+    color: var(--gray-100);
+}
+
+.Text {
+    color: var(--gray-100);
+    padding-left: 20px;
+}
+
+
+.Create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10.7rem;
+}
+
+.Create input {
+    border: none;
+    height: 3.375rem;
+    width: 39.875rem;
+    border-radius: 5px;
+    background-color: var(--gray-500);
+}
+
+.Create input::placeholder {
+    color: var(--gray-300);
+}
+
+.Create button {
+    width: 5.625rem;
+    height: 3.25rem;
+    border-radius: 5px;
+    background-color: var(--blue-500);
+    color: var(--gray-100);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.accountant p:first-child {
+    color: var(--blue-300);
+}
+
+.accountant p:last-child{
+    color: var(--purple-300);
+}
+
+.Count {
+    width: auto;
+    background-color: var(--gray-400);
+    padding: 0.5rem;
+    border-radius: 15px;
+    color: var(--gray-100);
+}

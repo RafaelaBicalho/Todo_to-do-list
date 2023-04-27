@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+}
+
+.header {
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+    gap: 1rem;
+}
+
+.header img {
+    height: 2.25rem;
+}
+
+.header p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right, var(--blue-300) 36%,var(--purple-500) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
